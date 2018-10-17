@@ -1,13 +1,15 @@
 
 public class TeaCreater {
 public static void main(String[] args) {
-	TeaMaker jeff = new TeaMaker();
-	TeaBag MINT = TeaBag();
+	TeaBag flavor = new TeaBag(TeaBag.Shamanjo);
 	
-	Kettle cup = new Kettle();
-	
+	Kettle ket = new Kettle();
+	ket.boil();
+
 	
 	
 	Cup fire = new Cup();
+	
+	fire.makeTea(flavor, ket.getWater());
 }
 }

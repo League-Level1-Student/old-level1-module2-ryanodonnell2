@@ -16,6 +16,7 @@ class TeaBag {
 	public final static String MINT = "Mint";
 	public final static String CHAMOMILE = "Chamomile";
 	public final static String PASSION_FRUIT = "Passion Fruit";
+	public final static String Shamanjo = "Shamanjo";
 
 	private String flavor;
 
@@ -32,6 +33,7 @@ class TeaBag {
 class Kettle {
 
 	private Water water = new Water();
+
 
 	Water getWater() {
 		return water;
