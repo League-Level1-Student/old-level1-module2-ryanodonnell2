@@ -32,9 +32,12 @@ class TeaBag {
 
 class Kettle {
 
-	private Water water = new Water();
+	private Water water = null;
 
-
+	public void addWater() {
+		water = new Water();
+	}
+	
 	Water getWater() {
 		return water;
 	}
