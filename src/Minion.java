@@ -17,26 +17,26 @@ public class Minion {
 	public String getName() {
 		return name;
 	}
-	public int geteyes() {
+	public int getEyes() {
 		return eyes;
 	}
-	public String getcolor() {
+	public String getColor() {
 		return color;
 	}
-	public String getmaster() {
+	public String getMaster() {
 		return master;
 	}
 	
 	public void setName(String names) {
 		name = names;
 	}
-	public void setcolor(String colors) {
+	public void setColor(String colors) {
 		color = colors;
 	}
-	public void setmaster(String masters) {
-		name = masters;
+	public void setMaster(String masters) {
+		master = masters;
 	}
-	public void seteyes(int eyeAmount) {
+	public void setEyes(int eyeAmount) {
 		if (eyeAmount >= 0) {
 			eyes = eyeAmount;
 		}
